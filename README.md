@@ -1,7 +1,7 @@
-Title: Snake Game using Python.
+**Title: Snake Game using Python.**
 
 
-Intro:
+**Intro:**
 A snake game is an arcade maze game which has been developed by Gremlin Industries and published by Sega in October 1976. It is considered to be a skillful game and has been popularized among people for generations. The snake in the Snake game is controlled using the four direction buttons relative to the direction it is headed in. The player’s objective in the game is to achieve maximum points as possible by collecting food or fruits. The player loses once the snake hits the wall or hits itself.
 
 So, we will created a Python-based-game using the following modules:
@@ -10,7 +10,7 @@ Turtle: It is a pre-installed python library that enables users to create shapes
 Time: This function is used to count the number of seconds elapsed since the epoch.
 Random: This function is used to generate random numbers in Python by using random module.
 
-Below are the steps to create a Snake Game using Turtle module:
+**Below are the steps to create a Snake Game using Turtle module:**
 
 
 Step 1: We will be importing modules into the program and giving default values for the game.
@@ -38,10 +38,12 @@ Step 4: Now, lastly, we will create the gameplay where the following will be hap
 	
   -> The score will be returned to zero and a high score will be retained until the window is not closed.
 
-Output:
+**Output:**
+
+![](https://github.com/KunjalbaVala/Code_Unnati/blob/main/snakegame.gif)
 
 
-Code Explanation:
+**Code Explanation:**
 
 -> The code starts by creating a window screen.
 
@@ -119,3 +121,24 @@ with corresponding colors and speeds.
 -> If they are moving left or right, head.direction will be set to “left” or “right”.
 
 -> The code also checks whether the player’s current position falls within a food zone and if not, then the appropriate x and y coordinates are randomly generated and stored in food and moved accordingly by calling Turtle().goto() with those values.
+
+
+**Conclusion:**
+
+In conclusion, the Python Snake Game project provides a comprehensive example of game development using the Turtle graphics library. Here are the key points to take away from this project:
+
+1. **Learning Opportunity:** Developing a game like Snake offers valuable insights into basic game mechanics, user input handling, collision detection, and score tracking.
+
+2. **Interactive Graphics:** The Turtle graphics library allows for interactive and visually appealing graphics, making it suitable for educational purposes and simple game development projects.
+
+3. **Game Loop:** The game loop continuously updates the game state, checks for user input, and handles game logic such as movement, collisions, and scoring.
+
+4. **User Interaction:** Players control the snake's movement using keyboard input, providing an interactive gaming experience.
+
+5. **Scoring System:** The game features a scoring system that rewards players for eating food and keeps track of their highest score, adding a competitive element to the gameplay.
+
+6. **Challenges:** The game presents challenges such as avoiding collisions with walls and the snake's own body, testing the player's reflexes and strategic thinking.
+
+7. **Customization:** The code can be easily customized to add new features, adjust game difficulty, or modify visual elements to create a unique gaming experience.
+
+Overall, the Python Snake Game project serves as a fun and educational introduction to game development concepts and Python programming. It provides a solid foundation for aspiring game developers to build upon and explore more complex game projects in the future.
